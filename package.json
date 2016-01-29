@@ -1,7 +1,7 @@
 {
   "name": "gpl-2.0",
   "description": "Plaintext of The GNU General Public License Version 2 from www.gnu.org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "README.md",
     "GPL-2.0.json",
