@@ -1,0 +1,15 @@
+{
+  "name": "GPL-2.0",
+  "description": "Plaintext of The GNU General Public License Version 2 from www.fsf.org",
+  "version": "0.0.0",
+  "files": [
+    "README.md",
+    "GPL-2.0.json",
+    "package.json"
+  ],
+  "main": "GPL-2.0.json",
+  "repository": "jslicense/GPL-2.0",
+  "scripts": {
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('GPL-2.0').toString()))\" > GPL-2.0.json"
+  }
+}
