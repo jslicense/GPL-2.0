@@ -7,6 +7,10 @@
     "GPL-2.0.json",
     "package.json"
   ],
+  "keywords": [
+    "jslicense",
+    "license"
+  ],
   "main": "GPL-2.0.json",
   "repository": "jslicense/GPL-2.0",
   "scripts": {
